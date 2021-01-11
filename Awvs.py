@@ -172,7 +172,7 @@ if __name__ == '__main__':
 
     #AWVS服务器ip地址和端口号
     awvs_url=global_config.getRaw('awvs', 'awvs_url')
-    # awvs_url='10.51.30.63:13443'
+    # awvs_url='10.51.x.x:13443'
 
     # api调用时候使用的header，其中主要为apikey，通过页面生成
     api_key=global_config.getRaw('awvs', 'api_key')
